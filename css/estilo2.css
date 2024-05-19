@@ -1,0 +1,277 @@
+@media screen and (min-width: 0) {
+  .MenuPrincipal {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(156, 139, 116);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menuIniciar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 0.6rem;
+  }
+
+  .menuIniciar a:hover {
+    color: rgb(255, 223, 180);
+  }
+
+  .menuIniciar a img {
+    width: 50px;
+    margin: 10px;
+  }
+
+  .informacoes a {
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 0.6rem;
+  }
+
+  .informacoes a:hover {
+    color: rgb(255, 223, 180);
+  }
+  .informacoes a h2 {
+    margin: 10px;
+    font-size: 1.2rem;
+  }
+
+  .jogoPrincipal {
+    width: 355px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(59, 48, 10);
+  }
+
+  .alinhabotao {
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .botaoIniciarAbertura {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 100px;
+    color: antiquewhite;
+    background-color: rgb(66, 57, 45);
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  .botaoIniciarAbertura:hover {
+    color: rgb(66, 57, 45);
+    background-color: antiquewhite;
+  }
+
+  #adAnimacaoInicial {
+    width: 360;
+    height: 200px;
+    margin-left: 0px;
+    background-color: rgb(66, 57, 45);
+  }
+
+  #adcanvas {
+    width: 355px;
+    height: 200px;
+    background-image: url("../midias/cenarioprincipal.gif");
+    background-size: 360px 200px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .MenuPrincipal {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(156, 139, 116);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menuIniciar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 1rem;
+  }
+
+  .menuIniciar a:hover {
+    color: rgb(255, 223, 180);
+  }
+
+  .menuIniciar a img {
+    width: 100px;
+    margin: 10px;
+  }
+
+  .informacoes a {
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 1rem;
+  }
+
+  .informacoes a:hover {
+    color: rgb(255, 223, 180);
+  }
+  .informacoes a h2 {
+    margin: 10px;
+    font-size: 2rem;
+  }
+
+  .jogoPrincipal {
+    width: 740px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(59, 48, 10);
+  }
+
+  .alinhabotao {
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .botaoIniciarAbertura {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 300px;
+    height: 100px;
+    color: antiquewhite;
+    background-color: rgb(66, 57, 45);
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+
+  .botaoIniciarAbertura:hover {
+    color: rgb(66, 57, 45);
+    background-color: antiquewhite;
+  }
+
+  #adAnimacaoInicial {
+    width: 740px;
+    height: 480px;
+    margin-left: 0px;
+    background-color: rgb(66, 57, 45);
+  }
+  #adcanvas {
+    width: 740px;
+    height: 480px;
+    background-image: url("../midias/cenarioprincipal.gif");
+    background-size: 740px 480px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .MenuPrincipal {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(156, 139, 116);
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menuIniciar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 1.2rem;
+  }
+
+  .menuIniciar a:hover {
+    color: rgb(255, 223, 180);
+  }
+
+  .menuIniciar a img {
+    width: 100px;
+    margin: 10px;
+  }
+
+  .informacoes a {
+    text-decoration: none;
+    color: rgb(66, 57, 45);
+    font-size: 1.2rem;
+  }
+
+  .informacoes a:hover {
+    color: rgb(255, 223, 180);
+  }
+  .informacoes a h2 {
+    margin: 10px;
+    font-size: 2rem;
+  }
+
+  .jogoPrincipal {
+    width: 890px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(59, 48, 10);
+  }
+
+  .alinhabotao {
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .botaoIniciarAbertura {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 300px;
+    height: 100px;
+    color: antiquewhite;
+    background-color: rgb(66, 57, 45);
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+
+  .botaoIniciarAbertura:hover {
+    color: rgb(66, 57, 45);
+    background-color: antiquewhite;
+  }
+
+  #adAnimacaoInicial {
+    width: 890px;
+    height: 480px;
+    margin-left: 0px;
+    background-color: rgb(66, 57, 45);
+  }
+
+  #adcanvas {
+    width: 890px;
+    height: 480px;
+    background-image: url("../midias/cenarioprincipal.gif");
+    background-size: 890px 480px;
+    background-repeat: no-repeat;
+  }
+}
